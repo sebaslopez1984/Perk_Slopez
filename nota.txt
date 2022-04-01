@@ -1,0 +1,6 @@
+La api http://127.0.0.1:8000/api/preciototal/true/true corre 3 consultas:
+--El precio total de las transacciones que SÍ se cobraron
+--El precio total de las transacciones que NO se cobraron
+ademas se agrego una opcion para que traiga el total por empresa
+
+el primer parametro consiste en traer los transacciones aprovadas o no aprovadas y el segundo campo si calcularlo pro empresa o no
