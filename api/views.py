@@ -119,7 +119,7 @@ class PrecioTotalTransaccion(View):
 
                         lista.append((d))
 
-                if estado == "True":
+                if estado == "true":
                     datos = {'Api': "Precio total de las transacciones que SÍ se cobraron",'Message' : "Success", 'Transaccion' : lista} 
                     return JsonResponse(datos)
                 else:
